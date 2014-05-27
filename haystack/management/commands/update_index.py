@@ -10,11 +10,9 @@ from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
 from django.core.management.base import LabelCommand
 from django.db import reset_queries
-<<<<<<< HEAD
-=======
+
 from django.utils.encoding import smart_str, force_unicode
 from django.utils import translation
->>>>>>> Activate language in management commands
 
 from haystack import connections as haystack_connections
 from haystack.query import SearchQuerySet
