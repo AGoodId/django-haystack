@@ -9,6 +9,7 @@ from datetime import timedelta
 from optparse import make_option
 
 from django import db
+from django.conf import settings
 from django.core.management.base import LabelCommand
 from django.db import reset_queries
 from django.utils.encoding import smart_str, force_unicode
